@@ -39,9 +39,9 @@ export const NavBar = () => {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Inicio</Nav.Link>
-            <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Habilidades</Nav.Link>
-            <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Proyectos</Nav.Link>
+            <Nav.Link href="#inicio" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Inicio</Nav.Link>
+            <Nav.Link href="#habilidades" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Habilidades</Nav.Link>
+            <Nav.Link href="#proyectos" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Proyectos</Nav.Link>
           </Nav>
           <span className="navbar-text">
           	<div className="social-icon">
@@ -49,7 +49,7 @@ export const NavBar = () => {
           		<a href="https://www.facebook.com/TilioBolso" target="_blank" rel="noreferrer noopener"><img src={navIcon2} alt="Facebook" /></a>
           		<a href="https://www.instagram.com/tilio_bolso/" target="_blank" rel="noreferrer noopener"><img src={navIcon3} alt="Instagram" /></a>
           	</div>
-          	<button className="vvd" onClick={() => console.log("connect")}><span>Conectemos</span></button>
+          	<button className="vvd" onClick={() => console.log("connect")}><span>Contactemos</span></button>
           </span>
         </Navbar.Collapse>
       </Container>
